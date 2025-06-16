@@ -1,0 +1,40 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "扫雷"
+			}
+		},
+		{
+			"path": "pages/eliminate/index",
+			"style": {
+				"navigationBarTitleText": "消消乐"
+			}
+		},
+		{
+			"path": "pages/webview/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		},
+		"usingComponents": {
+			// "ocr-navigator": "plugin://ocr-plugin/ocr-navigator",
+			// "custom-date-range": "/wxcomponents/customDateRange/index"
+		}
+	}
+}

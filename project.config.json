@@ -1,0 +1,38 @@
+{
+	"appid": "wx6db67862346ae576",
+	"compileType": "miniprogram",
+	"libVersion": "2.32.3",
+	"packOptions": {
+		"ignore": [],
+		"include": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"coverView": true,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"enhance": true,
+		"packNpmRelationList": [],
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"condition": false,
+		"useCompilerModule": false
+	},
+	"editorSetting": {
+		"tabIndent": "insertSpaces",
+		"tabSize": 4
+	},
+	"projectname": "Lakua",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
+}

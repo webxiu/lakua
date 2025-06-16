@@ -1,0 +1,48 @@
+.range-style {
+  display: flex;
+  align-items: center;
+  /* padding-left: 10rpx; */
+  background-color: #fff;
+
+}
+
+.mar-top {
+  /* margin-top: 30rpx; */
+  width: 100%;
+}
+
+.picker-title {
+  /* font-size: 32rpx; */
+  width: 150rpx;
+}
+
+.picker_group {
+  color: #888;
+  /* border: 1rpx solid #A4A6AE; */
+  border-radius: 15rpx;
+  display: flex;
+  width: 77%;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 20rpx 30rpx; */
+  /* font-size: 12rpx; */
+}
+
+.text-style1 {
+  /* color: #A4A6AE; */
+  color: #ccc;
+  font-size: 23rpx;
+}
+
+.text-style2 {
+  color: rgb(0, 0, 0, 0.8);
+}
+
+.picker_group picker {
+  /* font-size: 34rpx; */
+  font-size: 22rpx;
+  height: 45rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  line-height: 45rpx;
+}

@@ -1,0 +1,17 @@
+ <view class="range-style mar-top">
+                <!-- <view class="picker-title">日期范围:</view> -->
+                <!-- 时间段 -->  
+                    <view class="picker_group">  
+                    <picker mode="date" value="{{startdate}}"  end="{{enddate}}" bindchange="bindDateChange">  
+                        <view class="picker">  
+                        <text class = "{{startdate=='开始日期'?'text-style1':'text-style2'}}">{{startdate}}</text>
+                        </view>  
+                    </picker>  
+                    <text class = "text-style1">~</text> 
+                    <picker mode="date" value="{{enddate}}" start="{{startdate}}" end="2050-01-01" bindchange="bindDateChange2">  
+                        <view class="picker">  
+                        <text class = "{{enddate=='结束日期'?'text-style1':'text-style2'}}">{{enddate}}</text> 
+                        </view>  
+                    </picker>        
+                    </view>  
+                </view>
