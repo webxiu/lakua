@@ -1,8 +1,10 @@
 <template>
 	<view class="success" v-for="item in pageList" :key="item.url">
-		<button @click="onClick(item)" size="default" type="primary" class="item-button"
-			hover-class="is-hover">{{item.name}}</button>
-		<uni-icons type="checkbox-filled" size="100" color="#07c160"></uni-icons>
+		<button @click="onClick(item)" size="default" :type="item.type" class="item-button" hover-class="is-hover">
+			<uni-icons :type="item.icon" size="20" :color="item.iconColor"></uni-icons>
+			{{item.name}}
+		</button>
+
 	</view>
 </template>
 
@@ -24,19 +26,23 @@
 	const stepStore = useStepStore();
 	const pageList = reactive([{
 			name: '扫雷',
-			icon: '',
+			type: "default",
+			icon: 'flag-filled',
+			iconColor: '#07c160',
 			url: '/pages/mine/index'
 		},
 		{
 			name: '消消乐',
-			icon: '',
+			type: "default",
+			icon: 'fire-filled',
+			iconColor: '#8161c1',
 			url: '/pages/eliminate/index'
 		},
 	]);
 
 	const res = uni.getStorageSync('step') || '{}';
 	onLoad(() => {
-		console.log('index-home');
+		console.log('index-home', res);
 	});
 	const onClick = (item) => {
 		console.log(item);
